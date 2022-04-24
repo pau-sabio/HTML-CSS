@@ -67,6 +67,7 @@ aside{
 }
 
 .grid-container img{
+    margin-right: 10px;
 }
 
 .grid-container h4{
@@ -81,3 +82,36 @@ width: 60%;
 article img{
     width: 100%;    
 }
+
+.read-more{
+    width: 15%;
+}
+
+.row-stories{
+    display: flex;
+}
+
+.row{
+    margin: 10px;
+}
+
+.social{
+    display: flex;
+}
+
+.section-social{
+    margin-right: 20px;
+}
+
+.like{
+    display: flex;
+}
+
+.follow{
+    display: flex;
+}
+
+.email{
+    display: flex;
+}
+
