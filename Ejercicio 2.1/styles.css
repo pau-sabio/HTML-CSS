@@ -1,0 +1,97 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.top{
+    border-bottom: 2px solid rgb(229, 229, 229);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu img{
+    width: 100px;
+}
+
+.menu p{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(99, 99, 238);
+    font-size: 14px;
+}
+
+.form-section{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.buttons-social{
+    display: flex;
+}
+
+.buttons-social img{
+    margin-right: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.form__label {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+.form__input {
+    padding: 0.5rem 1rem;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+.form__label_check{
+    font-size: 0.8rem;
+}
+
+.form__btn {
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    padding: 0.7rem 2rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+footer{
+    border-top: 2px solid rgb(229, 229, 229);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none;
+    color:gray;
+    margin-right: 50px;
+}

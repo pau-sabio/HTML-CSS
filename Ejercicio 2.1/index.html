@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issuu</title>
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="top">
+        <nav class="menu">
+            <a href="""><img src="./img/Issuu_logo.png" alt=""></a>
+            <div class="sign-in">
+                <p>Already a user?</p></li>
+                <a href="">Sign in</a></li>
+            </div>
+        </nav>
+    </div>
+
+    <div class="form-section">
+        <h1>Create an Issuu Account.</h1>
+        <div class="buttons-social">
+            <a href=""><img style="width: 150px;" src="./img/google.png" alt=""></a>
+            <a href=""><img style="width: 200px;" src="./img/facebook.png" alt=""></a>
+        </div>
+        <p>or with email</p>
+        
+        <form
+        autocomplete="off"
+        action="https://reqres.in/api/users"
+        method="post"
+        class="form"
+        >
+        
+
+            <label for="email" class="form__label">Email</label>
+            <input
+                type="email"
+                id="email"
+                name="user_email"
+                placeholder="e.g. jon@issuu.com"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}"
+                class="form__input"
+            />
+
+            <label for="pwd" class="form__label">Password</label>
+            <input
+                type="password"
+                id="pwd"
+                name="user_password"
+                pattern="[A-Za-z0-9]{6,20}"
+                required
+                class="form__input"
+            />
+
+            <div class="checkbox-container">
+                <input
+                    type="checkbox"
+                    id="vip"
+                    name="user_vip"
+                    class="form__checkbox"
+                />
+
+                <label for="vip" class="form__label_check">I accept the <a href="">Terms of Service</a>and the <a href="">Professional Terms of Service</a>.</label>
+            </div>
+
+            <button type="submit" class="form__btn form__btn--submit">CREATE ACCOUNT</button>
+        </form>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="">Issuu Inc.</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">DMCA</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
