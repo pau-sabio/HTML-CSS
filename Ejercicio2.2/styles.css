@@ -1,0 +1,79 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+
+.main{
+    display: flex;
+}
+
+.logo{
+    width: 30%;
+    text-align: center;
+}
+
+.logo img{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.form-section{
+    width: 600px;
+}
+
+.form-section h1{
+    font-size: 3rem;
+}
+
+.form-section a{
+    text-decoration: none;
+    color: #007c89;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.form__input{
+    padding: 0.8rem 1rem;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item{
+    font-size: 0.9rem;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #007c89 ;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sign-up{
+    display: flex;
+    margin-top: 50px;
+}
+
+.form__btn{
+    width: 200px;
+    margin-right: 50px;
+    border: 1px solid lightgray;
+    font-family: 'Poppins', sans-serif;
+
+}
