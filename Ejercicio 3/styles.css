@@ -1,0 +1,70 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.spacer{
+    width: 200px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1{
+    font-size: 2.4rem;
+    margin-bottom: 0;
+}
+
+.breadcrumb{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+    font-size: 0.8rem;
+}
+
+.breadcrumb a{
+    color: lightgray;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.search-section{
+}
+
+.search-section ul{
+    display: flex;
+    align-items: center;
+}
+
+.search-section img{
+    height: 1.2rem;
+    margin-left: 20px;
+}
+
+.search-section input{
+    background: transparent url(./img/magnifying-glass-solid.svg);
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+}
