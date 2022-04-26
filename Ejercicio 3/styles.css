@@ -68,3 +68,67 @@ ul.breadcrumb li+li:before {
     border-bottom: 2px solid black;
     color: black;
 }
+
+.navbar{
+    list-style-type: none;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+}
+
+.navbar li{
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover{
+    font-weight: 600;
+}
+
+.genre{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.genre li{
+    margin-right: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.grid-item img{
+    width: 100%;
+}
+
+.grid-item h3{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+}
+
+.grid-item p{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 5px 0 0 10px;
+}
