@@ -26,7 +26,6 @@ li{
 
 .navbar-right a{
     text-decoration: none;
-    list-style-type none;
     color: white;
     padding: 25px;
     margin-right: 10px;
@@ -260,65 +259,65 @@ table td{
   }
 
   .form-section{
-      display: flex;
-      justify-content: center;
-      margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 
   }
 
   .form{
-      display: flex;
-      flex-direction: column;
-      width: 500px;
-      margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-right: 20px;
   }
 
   .form-text{
-      width: 500px;
-      margin-left: 20px;
+    width: 500px;
+    margin-left: 20px;
   }
 
   .form-text h2{
-      color: #b88439;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 600;
-      font-size: 24px;
-      letter-spacing: 0.1em;
-      margin-top: 0;
-      padding-top: 0;
-      text-align: left;
+    color: #b88439;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: left;
   }
 
   .form-text h3{
-      color: white;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600;
-      font-size: 20px;
-      letter-spacing: 0.1em;
-      margin-top: 0;
-      padding-top: 0;
-      text-align: left;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: left;
   }
 
   .form-text p{
-      color: white;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 400;
-      font-size: 12px;
-      margin-top: 0;
-      padding-top: 0;
-      text-align: left;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: left;
   }
 
   form{
-      width: 500px;
+    width: 500px;
   }
 
   .form-select{
-      padding-top: 4px;
-      padding-bottom: 4px;
-      padding-left: 2px;
-      margin-bottom: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    margin-bottom: 10px;
   }
 
 .form-input{
@@ -363,7 +362,6 @@ footer{
 
 .footer-block h2{
     text-decoration: none;
-    list-style-type none;
     color: black;
     font-family: Montserrat;
     font-size: 16px;
@@ -379,7 +377,6 @@ footer{
 
 .footer-block a{
     text-decoration: none;
-    list-style-type none;
     color: black;
     font-family: Poppins;
     font-size: 12px;
@@ -387,7 +384,6 @@ footer{
 
 .footer-block li{
     text-decoration: none;
-    list-style-type none;
     color: black;
     font-family: Poppins;
     font-size: 12px;
