@@ -1,0 +1,49 @@
+.hero{
+    background-image: url(./img/background-bmw3.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    height: 700px;
+    
+}
+
+.hero-container{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 150px;
+    margin-left: 60px;
+}
+
+.hero h1{
+font-size: 2.5rem;
+margin-bottom: 10px;
+}
+
+.hero h2{
+    font-size: 1.3rem;
+    margin-top: 0px;
+}
+
+.hero button{
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(28,105,212);
+    border: none;
+    padding: 12px 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hero button:hover{
+    background-color: rgb(11, 65, 141);
+    cursor: pointer;
+}
+
+.hero button:active{
+    background-color: rgb(11, 65, 141);
+    cursor: pointer;
+}
+    
+    

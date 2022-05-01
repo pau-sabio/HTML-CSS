@@ -1,0 +1,33 @@
+footer{
+    background-color: rgba(224, 224, 224, 0.5);
+    margin-top: 60px;    
+    height: 500px;
+    padding-top: 50px;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-top: 2px solid rgba(224, 224, 224, 0.5);
+}
+
+.grid-footer h6{
+    font-size: 1rem;
+}
+
+.grid-footer ul{
+    list-style-type: none;
+}
+
+.grid-footer li{
+    color: grey;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.grid-footer li:hover{
+    color: black
+}

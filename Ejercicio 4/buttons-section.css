@@ -1,0 +1,35 @@
+.buttons-section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.button-1{
+    background-color: rgba(224, 224, 224, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+}
+
+.button-1 img{
+    width: 10%;    
+    margin-top: 40px;
+}
+
+.button-1 h5{
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-1:hover{
+    background-color: rgb(28,105,212);
+    cursor: pointer;
+    color: white;
+}
+
+
