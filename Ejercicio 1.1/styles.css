@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body{
     margin: 0px;
@@ -14,18 +14,11 @@ body{
     align-items: center;
     position: fixed;
     top: 0;
-    z-index: 1;
-
-
-}
-
-
+    z-index: 1; }
 
 ul{
     list-style-type: none;
-    text-decoration: none;
-
-}
+    text-decoration: none; }
 
 li{
     float: left;
@@ -40,18 +33,14 @@ li{
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    letter-spacing: 0.1em;
-
+    letter-spacing: 0.1em; 
 }
 
 .navbar-right a:hover{
     text-decoration: underline;
     text-underline-offset: 8px;
     text-decoration-thickness: 2px;
-    text-decoration-color: #b88439;
-
-
-
+    text-decoration-color: #b88439; 
 }
 
 .logo img{
@@ -133,9 +122,9 @@ width: 50%;
 }
 
 .column img {
-  padding: 10px;
-  vertical-align: middle;
-  width: 100%;
+    padding: 10px;
+    vertical-align: middle;
+    width: 100%;
 }
   
 * {
@@ -143,27 +132,27 @@ width: 50%;
   }
 
 
-  .menu{
-      height: auto;
-      color: black;
-      padding-top: 50px;
-  }
+.menu{
+    height: auto;
+    color: black;
+    padding-top: 50px;
+}
 
-  .menu h2{
+.menu h2{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 16px;
     letter-spacing: 0.1em;
     margin-bottom: 10px;
-  }
+}
 
-  .carta{
+.carta{
     display: flex;
     justify-content: center;
-  }
+}
 
-  .carta a{
+.carta a{
     text-decoration: none;
     color: black;
     padding: 25px;
@@ -172,59 +161,59 @@ width: 50%;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-  }
+}
 
-  .carta a:hover{
+.carta a:hover{
     text-decoration: underline;
     text-underline-offset: 8px;
     text-decoration-thickness: 2px;
     text-decoration-color: #b88439;
-  }
+}
 
-  .lista-carta{
-      width: 80%;
-      height: auto;
-      background-image: url(./img/background-fotos.jpeg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 0 auto;
-      padding-left: 30px;
-      padding-right: 30px;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      display: flex;
-  }
+.lista-carta{
+    width: 80%;
+    height: auto;
+    background-image: url(./img/background-fotos.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
 
-  table{
+table{
     width: 100%;
     background-color: white;
     padding: 40px;
     text-align: left;
-  }
+}
 
-  .lista{
-      width: 50%;
-      margin-left: 10px;
-      margin-right: 10px;
-  }
+.lista{
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
-  .right-text{
-      text-align: right;
-  }
+.right-text{
+    text-align: right;
+}
 
-  table th{
-      width: 70%;
-      height: 50px;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: bold;
-      margin-bottom: 20px;
-      padding-top: 50px;
-      padding-bottom: 20px;
-      
-  }
+table th{
+    width: 70%;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
 
-  table td{
+table td{
     height: 40px;
     font-family: 'Montserrat', sans-serif;
     font-weight:500;
@@ -290,35 +279,35 @@ width: 50%;
   }
 
   .form-text h2{
-    color: #b88439;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    letter-spacing: 0.1em;
-    margin-top: 0;
-    padding-top: 0;
-    text-align: left;
+      color: #b88439;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      letter-spacing: 0.1em;
+      margin-top: 0;
+      padding-top: 0;
+      text-align: left;
   }
 
   .form-text h3{
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    letter-spacing: 0.1em;
-    margin-top: 0;
-    padding-top: 0;
-    text-align: left;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: 0.1em;
+      margin-top: 0;
+      padding-top: 0;
+      text-align: left;
   }
 
   .form-text p{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    margin-top: 0;
-    padding-top: 0;
-    text-align: left;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      margin-top: 0;
+      padding-top: 0;
+      text-align: left;
   }
 
   form{
@@ -332,47 +321,47 @@ width: 50%;
       margin-bottom: 10px;
   }
 
-  .form-input{
-   margin-bottom: 10px;
+.form-input{
+    margin-bottom: 10px;
 }
 
-  .form-label{
-      color: white;
-      font-size: 14px;
-      font-family: 'Roboto', sans-serif;
-      margin-bottom: 5px;
-  }
+.form-label{
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+}
 
-  .form-btn{
-      margin-top: 20px;
-      margin-bottom: 20px;
-      padding-top: 4px;
-      padding-bottom: 4px;
-  }
-
-  .form-btn2{
-      margin-bottom: 10px;
+.form-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-top: 4px;
     padding-bottom: 4px;
-  }
+}
 
-  footer{
-      height: 400px;
-      display: flex;
-      background-color: lightgray;
-      width: 100%;
-      padding-left: 200px;
-  }
-  
-  .footer-block{
-      display: flex;
-      flex-direction: column;
-      justify-content: left;
-      margin-right: 250px;
-      margin-top: 30px;
-  }
+.form-btn2{
+    margin-bottom: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
 
-  .footer-block h2{
+footer{
+    height: 400px;
+    display: flex;
+    background-color: lightgray;
+    width: 100%;
+    padding-left: 200px;
+}
+
+.footer-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: 250px;
+    margin-top: 30px;
+}
+
+.footer-block h2{
     text-decoration: none;
     list-style-type none;
     color: black;
@@ -380,29 +369,29 @@ width: 50%;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
-  }
+}
 
-  .footer-block ul{
+.footer-block ul{
     padding: 0;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .footer-block a{
+.footer-block a{
     text-decoration: none;
     list-style-type none;
     color: black;
     font-family: Poppins;
     font-size: 12px;
-  }
+}
 
-  .footer-block li{
+.footer-block li{
     text-decoration: none;
     list-style-type none;
     color: black;
     font-family: Poppins;
     font-size: 12px;
-  }
+}
 
 
 
