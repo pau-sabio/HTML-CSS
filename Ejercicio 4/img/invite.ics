@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Workable//Calendar
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTAMP:20220428T122845Z
+UID:i4-rjcneuvipcuzdjuaxktrsmb5ukeyb
+DTSTART:20220503T140000Z
+DTEND:20220503T144500Z
+DESCRIPTION:
+ORGANIZER;CN=leadtech:mailto:c4e76ahb6rqu9@events.workablemail.com
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Call for Product Designer (Remote within Spain) job at leadtech
+TRANSP:OPAQUE
+URL:http://www.workable.com/events/i4-rjcneuvipcuzdjuaxktrsmb5ukeyb
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+ ;X-RESPONSE-COMMENT=;CN=Pau Sabio Doblas:mailto:sabio.doblas.pau@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;RSVP=TRUE;PARTSTAT=ACCEPTED
+ ;CN=Elisa Fernández-Guerra Souto:mailto:efernandez@leadtech.com
+END:VEVENT
+END:VCALENDAR
